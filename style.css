@@ -306,3 +306,302 @@ ul {
     color: #666666;
 
 }
+
+/* Pricing Section*/
+
+.pricing {
+
+    background-color: #f8f9fc;
+
+    padding: 90px 0;
+
+}
+
+.pricing-container {
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 30px;
+
+    margin-top: 50px;
+
+}
+
+.price-card {
+
+    background-color: white;
+
+    border: 1px solid #e6e6e6;
+
+    border-radius: 8px;
+
+    padding: 35px 30px;
+
+    transition: 0.3s;
+
+}
+
+.price-card:hover {
+
+    transform: translateY(-5px);
+
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.10);
+
+}
+
+.price-card h4 {
+
+    color: #666666;
+
+    font-size: 14px;
+
+    margin-bottom: 12px;
+
+}
+
+.price-card h2 {
+
+    font-size: 46px;
+
+    color: #111111;
+
+    margin-bottom: 5px;
+
+}
+
+.price-card p {
+
+    color: #777777;
+
+    font-size: 14px;
+
+    margin-bottom: 25px;
+
+}
+
+.price-card ul {
+
+    margin-bottom: 30px;
+
+}
+
+.price-card ul li {
+
+    margin-bottom: 12px;
+
+    color: #444444;
+
+    font-size: 15px;
+
+}
+
+
+/*Pricing Card */
+
+.featured {
+
+    background-color: #0f172a;
+
+    border: none;
+
+}
+
+.featured h4 {
+
+    color: white;
+
+}
+
+.featured h2 {
+
+    color: white;
+
+}
+
+.featured p {
+
+    color: #dddddd;
+
+}
+
+.featured ul li {
+
+    color: white;
+
+}
+
+.featured .button {
+
+    width: 100%;
+
+    text-align: center;
+
+}
+
+.price-card .button,
+.price-card .button-outline {
+
+    width: 100%;
+
+    text-align: center;
+
+}
+/*Hackathon Section */
+
+.hackathon {
+
+    background-color: #ffffff;
+
+    padding: 90px 0;
+
+}
+
+.challenge-container {
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 30px;
+
+    margin-top: 50px;
+
+}
+
+.challenge-card {
+
+    background-color: white;
+
+    border: 1px solid #e6e6e6;
+
+    border-radius: 8px;
+
+    padding: 30px;
+
+    transition: 0.3s;
+
+}
+
+.challenge-card:hover {
+
+    transform: translateY(-5px);
+
+    box-shadow: 0 8px 20px rgba(0,0,0,0.10);
+
+}
+
+.challenge-card h3 {
+
+    font-size: 24px;
+
+    color: #111111;
+
+    margin-bottom: 15px;
+
+}
+
+.challenge-card h5 {
+
+    display: inline-block;
+
+    background-color: #2F5EF7;
+
+    color: white;
+
+    padding: 6px 14px;
+
+    border-radius: 20px;
+
+    font-size: 13px;
+
+    margin-bottom: 20px;
+
+}
+
+.challenge-card p {
+
+    color: #666666;
+
+    font-size: 15px;
+
+    line-height: 1.7;
+
+    margin-bottom: 20px;
+
+}
+
+.challenge-card h4 {
+
+    color: #2F5EF7;
+
+    font-size: 22px;
+
+}
+
+
+/*Prize Box*/
+
+.prize-box {
+
+    background-color: #2F5EF7;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 50px 30px;
+
+    border-radius: 8px;
+
+    margin-top: 60px;
+
+}
+
+.prize-box img {
+
+    width: 70px;
+
+    margin: auto;
+
+    margin-bottom: 20px;
+
+}
+
+.prize-box h3 {
+
+    font-size: 30px;
+
+    margin-bottom: 15px;
+
+}
+
+.prize-box h1 {
+
+    font-size: 60px;
+
+    margin-bottom: 20px;
+
+}
+
+.prize-box p {
+
+    width: 700px;
+
+    margin: auto;
+
+    line-height: 1.7;
+
+}
+
+
+/*Button */
+
+.join-button {
+
+    text-align: center;
+
+    margin-top: 40px;
+
+}
