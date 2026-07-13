@@ -605,3 +605,66 @@ ul {
     margin-top: 40px;
 
 }
+
+
+/*Footer*/
+
+footer {
+
+    background-color: #111111;
+
+    padding: 60px 0 30px;
+
+}
+
+.footer-top {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    margin-bottom: 30px;
+
+}
+
+.footer-logo img {
+
+    width: 140px;
+
+}
+
+.footer-icons {
+
+    display: flex;
+
+    gap: 20px;
+
+}
+
+.footer-icons img {
+
+    width: 24px;
+
+}
+
+footer hr {
+
+    border: none;
+
+    border-top: 1px solid #444444;
+
+    margin-bottom: 20px;
+
+}
+
+.copyright {
+
+    color: #cccccc;
+
+    text-align: center;
+
+    font-size: 15px;
+
+}
