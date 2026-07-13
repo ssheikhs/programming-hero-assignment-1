@@ -215,3 +215,94 @@ ul {
     margin-bottom: 45px;
 
 }
+
+
+/*Speakers Section*/
+
+.speakers {
+
+    background-color: #ffffff;
+
+    padding: 90px 0;
+
+}
+
+.speaker-container {
+
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 30px;
+
+    margin-top: 50px;
+
+}
+
+.speaker-card {
+
+    background-color: white;
+
+    border: 1px solid #e6e6e6;
+
+    border-radius: 8px;
+
+    overflow: hidden;
+
+    transition: 0.3s;
+
+}
+
+.speaker-card:hover {
+
+    transform: translateY(-5px);
+
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.10);
+
+}
+
+.speaker-card img {
+
+    height: 300px;
+
+    object-fit: cover;
+
+}
+
+.speaker-info {
+
+    padding: 20px;
+
+}
+
+.speaker-info h5 {
+
+    color: #2F5EF7;
+
+    font-size: 11px;
+
+    font-weight: bold;
+
+    text-transform: uppercase;
+
+    margin-bottom: 10px;
+
+}
+
+.speaker-info h3 {
+
+    font-size: 24px;
+
+    color: #111111;
+
+    margin-bottom: 8px;
+
+}
+
+.speaker-info p {
+
+    font-size: 15px;
+
+    color: #666666;
+
+}
