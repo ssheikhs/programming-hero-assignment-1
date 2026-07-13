@@ -1,0 +1,217 @@
+/*CSS*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #222222;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1180px;
+    margin: auto;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+
+/*Button*/
+
+.button {
+
+    display: inline-block;
+
+    background-color: #2F5EF7;
+
+    color: white;
+
+    padding: 14px 30px;
+
+    border-radius: 6px;
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+}
+
+.button:hover {
+
+    background-color: #2149D8;
+
+}
+
+.button-outline {
+
+    display: inline-block;
+
+    border: 2px solid #2F5EF7;
+
+    color: #2F5EF7;
+
+    padding: 12px 28px;
+
+    border-radius: 6px;
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+}
+
+.button-outline:hover {
+
+    background-color: #2F5EF7;
+
+    color: white;
+
+}
+
+
+/*Heading*/
+
+.section-title {
+
+    text-align: center;
+
+    font-size: 48px;
+
+    margin-bottom: 15px;
+
+    color: #111111;
+
+}
+
+.section-text {
+
+    text-align: center;
+
+    font-size: 18px;
+
+    color: #666666;
+
+    margin-bottom: 50px;
+
+}
+
+
+/*Navbar*/
+
+.navbar {
+
+    background-color: white;
+
+    padding: 18px 0;
+
+    border-bottom: 1px solid #eeeeee;
+
+}
+
+.navbar .container {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+}
+
+.logo img {
+
+    width: 120px;
+
+}
+
+.menu {
+
+    display: flex;
+
+    gap: 30px;
+
+}
+
+.menu li a {
+
+    color: #444444;
+
+    font-size: 15px;
+
+}
+
+.menu li a:hover {
+
+    color: #2F5EF7;
+
+}
+
+
+/*Hero Section*/
+
+.hero {
+
+    background-image:
+        linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)),
+        url("./assets/banner.jpg");
+
+    background-size: cover;
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+    text-align: center;
+
+    color: white;
+
+    padding: 170px 0;
+
+}
+
+.hero h1 {
+
+    font-size: 72px;
+
+    margin-bottom: 25px;
+
+}
+
+.hero h1 em {
+
+    font-style: italic;
+
+}
+
+.hero p {
+
+    width: 700px;
+
+    margin: auto;
+
+    font-size: 22px;
+
+    line-height: 1.6;
+
+    color: #eeeeee;
+
+    margin-bottom: 45px;
+
+}
